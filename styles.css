@@ -13,15 +13,15 @@ body {
 }
 
 header{
-  background-color: #333;
-  color: white;
+  background-color: #FF8C42;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
 
 footer{
-  background-color: #333;
-  color: white;
+  background-color: #FFE0B2;
+  color: #333;
   text-align: center;
   padding: 10px;
 }
@@ -34,7 +34,6 @@ main{
   padding: 20px;
 }
 
-/* ===== TÍTULO ===== */
 h1 {
   font-size: 2rem;
   color: #fff;
@@ -42,10 +41,10 @@ h1 {
 }
 
 h2 {
+  color: #FF8C42;
   margin-bottom: 20px;
 }
 
-/* ===== FORMULARIO ===== */
 form {
   display: flex;
   gap: 10px;
@@ -58,12 +57,14 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
+  border-color: #FFA726;
+  color: #FF8C42;
 }
 
 button {
   padding: 10px 16px;
-  background-color: #FFA726;
-  color: white;
+  background-color: #FF8C42;
+  color: #fff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -71,10 +72,9 @@ button {
 }
 
 button:hover {
-  background-color: #f49505;
+  background-color: #FFA726;
 }
 
-/* ===== LISTA DE TAREAS ===== */
 ul {
   list-style: none;
   width: 100%;
@@ -90,6 +90,7 @@ li {
   justify-content: space-between;
   align-items: center;
   transition: all 0.3s ease;
+  color: #FF8C42;
 }
 
 li>div {
@@ -102,7 +103,6 @@ li.completada {
   opacity: 0.6;
 }
 
-/* ===== BOTONES DE CADA TAREA ===== */
 li button {
   background-color: #fff;
   color: #333;
